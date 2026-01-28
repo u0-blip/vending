@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function ContactForm() {
     return (
-        <section className="py-12 px-6 max-w-md md:max-w-4xl mx-auto">
+        <section id="contact" className="py-12 px-6 max-w-md md:max-w-4xl mx-auto scroll-mt-20">
             <h2 className="text-2xl md:text-3xl font-bold mb-2 text-center text-foreground">Ready to level up your lobby?</h2>
             <p className="text-center text-gray-600 mb-8 text-lg">See if your business qualifies for a free machine.</p>
 

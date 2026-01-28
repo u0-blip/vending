@@ -9,7 +9,7 @@ const quicksand = Quicksand({
 });
 
 export const metadata: Metadata = {
-  title: "Premium Vending Solutions",
+  title: "Nura Vending Solutions",
   description: "Upgrade Your Space. Fuel Your Team. Zero Cost to You.",
 };
 

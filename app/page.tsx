@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Hero from './components/Hero';
 import StickyCTA from './components/StickyCTA';
 import TrustAnchors from './components/TrustAnchors';
@@ -13,10 +14,10 @@ export default function Home() {
     <main className="min-h-screen bg-off-white pb-24 md:pb-0 relative overflow-x-hidden font-sans">
       {/* 0. Status Bar / Top - No Nav */}
       <header className="absolute top-0 left-0 w-full p-6 md:px-12 md:py-8 z-10 pointer-events-none md:flex md:justify-between md:items-center">
-        <span className="font-bold text-sage-dark text-lg md:text-2xl tracking-wider pointer-events-auto">VENDING.</span>
-        <button className="hidden md:block pointer-events-auto bg-sage text-white font-bold py-2 px-6 rounded-full shadow-sm hover:bg-sage-dark transition">
+        <span className="font-bold text-sage-dark text-lg md:text-2xl tracking-wider pointer-events-auto">NURA VENDING.</span>
+        <Link href="#contact" className="hidden md:block pointer-events-auto bg-sage text-white font-bold py-2 px-6 rounded-full shadow-sm hover:bg-sage-dark transition">
           Get Started
-        </button>
+        </Link>
       </header>
 
       <Hero />
@@ -24,7 +25,7 @@ export default function Home() {
       <HowItWorks />
       <ProductVisuals />
       <WhoItsFor />
-      <PrimaryCTABlock />
+      {/* <PrimaryCTABlock /> */}
       <ContactForm />
       <Footer />
 

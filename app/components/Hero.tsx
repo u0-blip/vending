@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 export default function Hero() {
     return (
@@ -11,14 +12,14 @@ export default function Hero() {
                 <p className="text-lg md:text-xl text-gray-700 mb-8 leading-snug">
                     We install, stock, and maintain modern snack & drink machines at no cost.
                 </p>
-                <button className="w-full md:w-auto md:px-12 bg-sage text-white font-bold py-4 rounded-full text-lg shadow-md hover:bg-sage-dark transition mb-8 cursor-pointer">
+                <Link href="#contact" className="w-full md:w-auto md:px-12 bg-sage text-white font-bold py-4 rounded-full text-lg shadow-md hover:bg-sage-dark transition mb-8 cursor-pointer inline-block">
                     Get a Free Machine Today
-                </button>
+                </Link>
             </div>
 
             <div className="w-full aspect-[3/4] md:aspect-auto md:h-[600px] bg-gray-200 rounded-xl overflow-hidden shadow-lg relative">
                 <img
-                    src="https://placehold.co/600x800/EEE/31343C?text=Modern+Vending+Machine"
+                    src="/hero.png"
                     alt="Modern Vending Machine"
                     className="object-cover w-full h-full"
                 />
