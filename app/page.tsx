@@ -12,8 +12,11 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-off-white pb-24 md:pb-0 relative overflow-x-hidden font-sans">
       {/* 0. Status Bar / Top - No Nav */}
-      <header className="absolute top-0 left-0 w-full p-6 z-10 pointer-events-none">
-        <span className="font-bold text-sage-dark text-lg tracking-wider pointer-events-auto">VENDING.</span>
+      <header className="absolute top-0 left-0 w-full p-6 md:px-12 md:py-8 z-10 pointer-events-none md:flex md:justify-between md:items-center">
+        <span className="font-bold text-sage-dark text-lg md:text-2xl tracking-wider pointer-events-auto">VENDING.</span>
+        <button className="hidden md:block pointer-events-auto bg-sage text-white font-bold py-2 px-6 rounded-full shadow-sm hover:bg-sage-dark transition">
+          Get Started
+        </button>
       </header>
 
       <Hero />
